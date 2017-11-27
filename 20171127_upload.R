@@ -3,4 +3,3 @@ df <- read.csv(url("https://data.giss.nasa.gov/gistemp/tabledata_v3/GLB.Ts+dSST.
 df[df=="***"] <- NA
 df <- as.data.frame(sapply(df, as.numeric))
 
-
